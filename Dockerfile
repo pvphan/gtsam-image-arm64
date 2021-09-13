@@ -1,4 +1,4 @@
-FROM arm64v8/ros:foxy-ros-base
+FROM arm64v8/python:3.8.11-buster
 
 WORKDIR /tmp
 RUN apt-get update -y && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \

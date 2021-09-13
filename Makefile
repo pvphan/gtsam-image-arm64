@@ -1,6 +1,6 @@
 SHELL:=/bin/bash
 
-IMAGE_TAG?=pvphan/pi-gtsam:4.1rc
+IMAGE_TAG?=pvphan/gtsam-image-arm64:4.1rc
 
 shell: image
 	docker run --rm -it ${IMAGE_TAG} bash
