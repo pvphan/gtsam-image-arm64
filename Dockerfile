@@ -1,4 +1,4 @@
-FROM arm64v8/python:3.8.11-buster
+FROM nvcr.io/nvidia/l4t-base:r32.6.1
 
 WORKDIR /tmp
 RUN apt-get update -y && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
